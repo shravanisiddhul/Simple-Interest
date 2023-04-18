@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+
+
+int main() {
+   int P = 10000;
+   int T = 7;
+   float R = 6.25;
+   cout << "Simple interest for 10,000 with ROI 6.25\% for 7 years is: ";
+   float si;
+   si = (P * T * R) / 100;
+   cout<<"interest:"<<si<<endl;
+   cout << "Total amount is: " << P + si;
+   return 0;
+}
